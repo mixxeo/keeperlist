@@ -728,10 +728,10 @@ function KeeperChecklist() {
         padding={{ bottom: 16 }}
       >
         <Text fontSize={20} fontWeight={700} fill={COLORS.textPrimary} fontFamily="Inter">
-          Keeper Commerce Checklist
+          PRODUCT CHECKLIST
         </Text>
         <Text fontSize={13} fill={COLORS.textSecondary} fontFamily="Inter">
-          커머스 기획 시나리오 체크리스트 · 기획 리뷰 전 확인하세요
+          기획 시나리오 체크리스트
         </Text>
       </AutoLayout>
 
