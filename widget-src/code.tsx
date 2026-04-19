@@ -679,14 +679,12 @@ function KeeperChecklist() {
                 key={child.id}
                 width="fill-parent"
                 verticalAlignItems="center"
-                padding={{ vertical: 6, horizontal: 0, left: 28 }}
+                padding={{ vertical: 8, horizontal: 0, left: 28 }}
                 stroke={COLORS.borderLight}
                 strokeWidth={1}
                 strokeAlign="outside"
               >
                 <ChecklistRow item={child} isChild={true} />
-                {/* Empty domain/service columns for alignment */}
-                <AutoLayout width={COL_DOMAIN + COL_SERVICE} />
               </AutoLayout>
             ))}
           </AutoLayout>
