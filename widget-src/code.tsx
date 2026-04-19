@@ -644,6 +644,8 @@ function KeeperChecklist() {
               fontFamily="Inter"
               width={COL_CHECKLIST - COL_CHECKBOX - 16}
               textDecoration={checked ? 'strikethrough' : 'none'}
+              onClick={hasChildren ? () => toggleExpanded(item.id) : undefined}
+              hoverStyle={hasChildren ? { opacity: 0.7 } : undefined}
             >
               {item.text}
             </Text>
