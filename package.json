@@ -1,0 +1,15 @@
+{
+  "name": "keeper-commerce-checklist",
+  "version": "1.0.0",
+  "description": "Keeper 커머스 기획 체크리스트 위젯",
+  "scripts": {
+    "build": "npx esbuild widget-src/code.tsx --bundle --outfile=dist/code.js --target=es6 --jsx=transform --jsx-factory=figma.widget.h --jsx-fragment=figma.widget.Fragment",
+    "watch": "npx esbuild widget-src/code.tsx --bundle --outfile=dist/code.js --target=es6 --jsx=transform --jsx-factory=figma.widget.h --jsx-fragment=figma.widget.Fragment --watch"
+  },
+  "devDependencies": {
+    "@figma/widget-typings": "^1.9.1",
+    "@figma/plugin-typings": "^1.100.2",
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.0"
+  }
+}

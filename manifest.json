@@ -1,0 +1,12 @@
+{
+  "name": "Keeper Commerce Checklist",
+  "id": "keeper-commerce-checklist-widget",
+  "api": "1.0.0",
+  "widgetApi": "1.0.0",
+  "editorType": ["figma"],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}
