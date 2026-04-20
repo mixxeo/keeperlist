@@ -1,5 +1,8 @@
-// Keeper Commerce Checklist Widget
+// Figma Checklist Widget - Keeperlist
 // Figma Widget for planning review — ensures planners don't miss common scenarios
+
+/// <reference path="../node_modules/@figma/plugin-typings/index.d.ts" />
+/// <reference path="../node_modules/@figma/widget-typings/index.d.ts" />
 
 const { widget } = figma;
 const {
