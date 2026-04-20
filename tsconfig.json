@@ -12,5 +12,5 @@
       "./node_modules/@figma"
     ]
   },
-  "include": ["widget-src/**/*.tsx"]
+  "include": ["widget-src/**/*.tsx", "widget-src/**/*.ts"]
 }
