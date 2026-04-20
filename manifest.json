@@ -1,6 +1,6 @@
 {
-  "name": "Keeper Commerce Checklist",
-  "id": "keeper-commerce-checklist-widget",
+  "name": "Keeperlist",
+  "id": "keeperlist-widget",
   "api": "1.0.0",
   "widgetApi": "1.0.0",
   "editorType": ["figma"],
