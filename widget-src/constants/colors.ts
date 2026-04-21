@@ -1,53 +1,53 @@
-import { Domain, Service } from '../types';
+import { Domain, Service } from "../types";
 
 export const COLORS = {
   // Base
-  bg: '#FFFFFF',
-  bgHover: '#F7F6F3',
-  border: '#E9E9E7',
-  borderLight: '#F0EFED',
+  bg: "#FFFFFF",
+  bgHover: "#F7F6F3",
+  border: "#E9E9E7",
+  borderLight: "#F0EFED",
 
   // Text
-  textPrimary: '#37352F',
-  textSecondary: '#787774',
-  textPlaceholder: '#C3C2BF',
+  textPrimary: "#37352F",
+  textSecondary: "#787774",
+  textPlaceholder: "#C3C2BF",
 
   // Tags
-  tagCommerce: '#E8DEEE',
-  tagCommerceText: '#6940A5',
-  tagAccount: '#D3E5EF',
-  tagAccountText: '#2E6B8A',
-  tagMonitoring: '#DBEDDB',
-  tagMonitoringText: '#2B7B2B',
-  tagEmployment: '#FDECC8',
-  tagEmploymentText: '#9F6B16',
+  tagCommerce: "#E8DEEE",
+  tagCommerceText: "#6940A5",
+  tagAccount: "#D3E5EF",
+  tagAccountText: "#2E6B8A",
+  tagMonitoring: "#DBEDDB",
+  tagMonitoringText: "#2B7B2B",
+  tagEmployment: "#FDECC8",
+  tagEmploymentText: "#9F6B16",
 
-  tagOwner: '#FFE2DD',
-  tagOwnerText: '#93342A',
-  tagInstaller: '#E8DEEE',
-  tagInstallerText: '#6940A5',
-  tagAdmin: '#D3E5EF',
-  tagAdminText: '#2E6B8A',
-  tagPartners: '#DBEDDB',
-  tagPartnersText: '#2B7B2B',
+  tagOwner: "#FFE2DD",
+  tagOwnerText: "#93342A",
+  tagInstaller: "#E8DEEE",
+  tagInstallerText: "#6940A5",
+  tagAdmin: "#D3E5EF",
+  tagAdminText: "#2E6B8A",
+  tagPartners: "#DBEDDB",
+  tagPartnersText: "#2B7B2B",
 
   // Accent
-  checkboxChecked: '#2383E2',
-  checkboxUnchecked: '#D4D4D4',
-  filterActive: '#2383E2',
-  filterActiveBg: '#EBF3FE',
-  filterInactive: '#787774',
-  filterInactiveBg: '#F7F6F3',
+  checkboxChecked: "#2383E2",
+  checkboxUnchecked: "#D4D4D4",
+  filterActive: "#2383E2",
+  filterActiveBg: "#EBF3FE",
+  filterInactive: "#787774",
+  filterInactiveBg: "#F7F6F3",
 
   // Header
-  headerBg: '#F7F6F3',
-  headerText: '#787774',
+  headerBg: "#F7F6F3",
+  headerText: "#787774",
 
   // Chevron
-  chevron: '#B4B4B0',
+  chevron: "#B4B4B0",
 
   // Title
-  titleBg: '#FFFFFF',
+  titleBg: "#FFFFFF",
 };
 
 export const DOMAIN_COLORS: Record<Domain, { bg: string; text: string }> = {
@@ -65,8 +65,8 @@ export const SERVICE_COLORS: Record<Service, { bg: string; text: string }> = {
 };
 
 export const SERVICE_LABELS: Record<Service, string> = {
-  Owner: '자영업자 앱',
-  Installer: '설치기사 앱',
-  Admin: '어드민 웹',
-  Partners: '파트너스',
+  Owner: "자영업자",
+  Installer: "매니저",
+  Admin: "관리자",
+  Partners: "파트너스",
 };
