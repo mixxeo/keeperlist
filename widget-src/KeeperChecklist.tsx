@@ -36,7 +36,21 @@ export function KeeperChecklist() {
   }
 
   function toggleCheck(id: string) {
-    checkedMap.set(id, !checkedMap.get(id));
+    const newValue = !checkedMap.get(id);
+    checkedMap.set(id, newValue);
+
+    // child가 토글된 경우 parent 상태 자동 동기화
+    for (const item of CHECKLIST_DATA) {
+      if (!item.children) continue;
+      const isChild = item.children.some((child) => child.id === id);
+      if (isChild) {
+        const allChecked = item.children.every((child) =>
+          child.id === id ? newValue : !!checkedMap.get(child.id)
+        );
+        checkedMap.set(item.id, allChecked);
+        break;
+      }
+    }
   }
 
   function toggleExpanded(id: string) {
